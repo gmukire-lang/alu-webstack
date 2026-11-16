@@ -19,7 +19,7 @@ frontend http_front
     default_backend web_servers
 
 frontend https_front
-    bind *:443 ssl crt /etc/ssl/certs/www.mellowjr.tech.pem
+    bind *:443 ssl crt /etc/ssl/certs/www.gracemukire.tech.pem
     default_backend web_servers
 
 backend web_servers
